@@ -7,6 +7,7 @@ def read_single_file(filename,sheet_name=None,columns=None):
 
 
 def read_files_from_directory(dir,sheet_name=None,columns=None):
+    print("Read all excel files")
     #create empty data frame
     results=pd.DataFrame()
     #check to see if value passed in is a dir
